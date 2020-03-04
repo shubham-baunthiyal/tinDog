@@ -1,0 +1,201 @@
+body{
+  font-family: 'Montserrat';
+}
+
+#title h1{
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+#title{
+  background-color: #ff4c68;
+}
+
+.navbar {
+  margin-bottom: 100px;
+  padding: 0px;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Ubuntu';
+}
+
+.navbar-nav {
+  font-size: 1rem;
+  font-family: 'Montserrat';
+}
+
+.nav-item{
+  padding: 0px 20px;
+}
+
+ .container-fluid{
+  padding: 3% 15%;
+  height: 610px;
+}
+
+#phone-img{
+  transform: rotate(+25deg);
+  width: 60%;
+  overflow:auto;
+  position: relative;
+  bottom: 50px;
+}
+
+.second-container{
+  padding-top: 100px;
+  height: auto;
+}
+
+.feature-text{
+  text-align: center;
+  padding: 5%;
+}
+
+.feature-text h3{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#features{
+  background-color: #ffffff;
+  position: relative;
+  z-index: 0;
+}
+
+#features i{
+  color: #FF667E;
+  margin-bottom:20px;
+}
+
+#features i:hover{
+  color: #ff4c68;
+  margin-bottom:20px;
+}
+
+#testimonials{
+  margin: auto;
+  text-align: center;
+  padding: 3%;
+  background-color: #FF667E;
+}
+
+#testimonials h2{
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 50px;
+  width: 80%;
+  margin: auto;
+}
+
+#testimonials img{
+  width: 100px;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+
+#testimonials em{
+  color: #ffffff;
+}
+
+#press{
+  margin: auto;
+  text-align: center;
+  padding: 3%;
+  background-color: #FF667E
+}
+
+.press-logo{
+  width: 200px;
+  margin: 50px;
+}
+
+#pricing{
+  margin: 100px auto;
+}
+
+#pricing-header{
+  margin: 50px auto;
+  text-align: center;
+}
+
+.card{
+  text-align: center;
+  height: 400px;
+  margin-top: 50px;
+}
+
+.card h2{
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+
+#cta{
+  background-color: #FF667E;
+  text-align: center;
+  padding: 3% 15%;
+}
+
+#cta h3{
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 50px;
+  width: 80%;
+  margin: auto;
+}
+
+.cta-btn{
+  margin: 5% 2%;
+}
+
+#footer{
+  text-align: center;
+  padding: 3% 15%;
+}
+
+#footer .fab{
+  margin: 5% 2%;
+}
+
+#footer .fab:hover{
+  color: #ff4c68;
+}
+
+
+@media (max-width: 900px){
+  #title{
+    text-align: center;
+  }
+
+  #title h1{
+    font-size: 3rem;
+  }
+
+  #title .btn{
+    width: 80%
+    margin: 20px 0px;
+    text-align: center;
+  }
+
+  #phone-img{
+    position: static;
+    transform: rotate(0);
+    padding-top: 20px;
+    width: 60%;
+  }
+
+  .container-fluid{
+    height: 950px;
+    margin: auto;
+  }
+}
